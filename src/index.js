@@ -1,19 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Card from "./Card";
-import './index.css'
-
-function App (){
-    return(
-        <div className="App">
-            <div className="container">
-                <Card/>
-            </div>
-        </div>
-    )
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
 ReactDOM.render(
-    <App/>
-    ,document.getElementById("root")
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
