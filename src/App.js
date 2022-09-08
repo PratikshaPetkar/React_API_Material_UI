@@ -1,8 +1,8 @@
-import React, { components } from "react";
+import React, { Component } from "react";
 import "./App.css";
-import Fetchdata from "./components/Fetchdata";
+import FetchData from "./Component/FetchData";
 
-class App extends components() {
+class App extends Component {
   state = {
     visible: true
   };
@@ -10,7 +10,7 @@ class App extends components() {
   render() {
     return (
       <div className="App">
-        <Fetchdata />
+        <FetchData />
       </div>
     );
   }
